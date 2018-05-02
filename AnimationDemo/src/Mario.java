@@ -21,6 +21,7 @@ public class Mario extends Sprite {
 	}
 
 	public void jump() {
+		
 		super.moveByAmount(0, -10);
 	}
 
